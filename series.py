@@ -1,1 +1,4 @@
+def fibonacci
 
+
+def lucas
