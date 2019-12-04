@@ -1,17 +1,20 @@
-from series import fib, lucas
+import pytest
+from series import fibonacci, lucas, sum_series
 
 
-def test_fibonacci(n):
+def test_fibonacci():
     expected = 34
-    actual = "9th value of fibonacci sequence"
-    assert expected is actual, "The 9th value of Fibonacci is 34"
+    actual = fibonacci(9)
+    assert expected == actual
 
-def test_lucas(n):
+# @pytest.mark.skip('pending')
+def test_lucas():
     expected = 18
-    actual = "6th value of Lucas sequence"
-    assert expected is actual, "The 6th value of Lucas is 18"
+    actual = lucas(6)
+    assert expected == actual
 
+# @pytest.mark.skip('pending')
 def test_sum_series():
-    expected = 13
-    actual = sum(5, 8)
-    assert expected is actual, "sum of 5 and 8 should be 13"
+    expected = 21
+    actual = sum_series(9, first = 0, second = 1)
+    assert expected == actual
