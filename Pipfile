@@ -8,5 +8,12 @@ verify_ssl = true
 [packages]
 coverage = "*"
 
+flake8 = "*"
+autopep8 = "*"
+
+[packages]
+pytest-watch = "*"
+
+
 [requires]
 python_version = "3.7"
