@@ -32,3 +32,5 @@ N/A
 01-01-2001 4:59pm - Added functionality to add and delete some things.
 -->
 12/03/2019 3:45pm -- Wrote out tests and added code
+12/05/2019 3:45pm -- Pipfile/pipfile.lock
+12/05/2019 -- Resubmit work: added docstrings
