@@ -8,13 +8,18 @@ def test_fibonacci():
     assert expected == actual
 
 # @pytest.mark.skip('pending')
+
+
 def test_lucas():
     expected = 18
     actual = lucas(6)
     assert expected == actual
 
 # @pytest.mark.skip('pending')
+
+
 def test_sum_series():
-    expected = 21
-    actual = sum_series(9, first = 0, second = 1)
-    assert expected == actual
+    assert sum_series(9) == 34
+    # expected = 21
+    # actual = sum_series(9, first = 0, second = 1)
+    # assert expected == actual
